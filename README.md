@@ -14,7 +14,7 @@ Overview of AWS Data Analysis Project
   A minimal AWS cost estimate was also prepared to ensure a cost-efficient setup across all tools (S3, Glue, Athena).
 ![image](https://github.com/user-attachments/assets/94c3194d-307b-4d7c-8e4b-6fb1c6080376)
 
-#Project 2
+# Project 2
 - Pipeline 1: Data Encryption & Security
   Created a KMS key (public-tree-key-rajbir) to enable secure data encryption on S3. The key is configured with proper permissions — admins manage the key, while authorized users can encrypt/decrypt data as required.
 - Pipeline 2: Encryption on S3 Buckets
