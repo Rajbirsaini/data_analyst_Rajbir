@@ -13,3 +13,24 @@ Overview of AWS Data Analysis Project
 - AWS Pricing Estimate
   A minimal AWS cost estimate was also prepared to ensure a cost-efficient setup across all tools (S3, Glue, Athena).
 ![image](https://github.com/user-attachments/assets/94c3194d-307b-4d7c-8e4b-6fb1c6080376)
+
+#Project 2
+- Pipeline 1: Data Encryption & Security
+  Created a KMS key (public-tree-key-rajbir) to enable secure data encryption on S3. The key is configured with proper permissions — admins manage the key, while authorized users can encrypt/decrypt data as required.
+- Pipeline 2: Encryption on S3 Buckets
+  Enabled the created KMS key as the default encryption on all S3 buckets used for the project (raw, clean, and curated). This ensures that all uploaded datasets are encrypted at rest, protecting data integrity and privacy.
+- Pipeline 3: S3 Versioning & Backup
+  Implemented S3 versioning across all project buckets. Versioning tracks all file updates and allows restoration of previous file versions, reducing risk of data loss due to accidental deletion or overwrites.
+- Pipeline 4: Replication Rule
+  Set up an S3 replication rule to automatically copy new raw data into a destination bucket. This replication is encrypted using the project’s KMS key and is restricted to the data team’s IAM role, ensuring reliable backups and fault tolerance.
+- Pipeline 5: Data Governance (Glue ETL)
+  Used AWS Glue Studio for ETL operations.
+  Passed quality-check records (121/200) moved to clean-tree-trf-rajbir/Passed/.
+  Failed records (79/200) moved to clean-tree-trf-rajbir/Failed/.
+  This structure simplifies access control and audit trails for the data engineering team.
+- Pipeline 6: Monitoring & Alerting
+  Created a CloudWatch dashboard (public-tree-CW-rajbir) to monitor S3 bucket usage, file sizes, and Glue job execution metrics.
+  Defined a CloudWatch alarm (public-tree-alm-rajbir) that tracks S3 bucket size and sends email notifications if bucket size exceeds 2MB threshold, ensuring rapid response to data volume spikes.
+- Pipeline 7: CloudTrail Implementation
+  Enabled CloudTrail to record all account activity across AWS resources for compliance, security monitoring, and troubleshooting. CloudTrail logs help review who accessed data, what was changed, and when — providing a complete audit trail.
+  ![image](https://github.com/user-attachments/assets/cdba2585-047d-436c-90ea-98fd45c6deb2)
