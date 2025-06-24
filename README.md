@@ -34,3 +34,5 @@ Overview of AWS Data Analysis Project
 - Pipeline 7: CloudTrail Implementation
   Enabled CloudTrail to record all account activity across AWS resources for compliance, security monitoring, and troubleshooting. CloudTrail logs help review who accessed data, what was changed, and when — providing a complete audit trail.
   ![image](https://github.com/user-attachments/assets/cdba2585-047d-436c-90ea-98fd45c6deb2)
+
+  #AWS Deployment Service (Module 1)
