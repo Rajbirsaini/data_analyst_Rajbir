@@ -35,4 +35,51 @@ Overview of AWS Data Analysis Project
   Enabled CloudTrail to record all account activity across AWS resources for compliance, security monitoring, and troubleshooting. CloudTrail logs help review who accessed data, what was changed, and when — providing a complete audit trail.
   ![image](https://github.com/user-attachments/assets/cdba2585-047d-436c-90ea-98fd45c6deb2)
 
-  #AWS Deployment Service (Module 1)
+  # AWS Deployment Service (Module 1)
+![image](https://github.com/user-attachments/assets/3272f92c-afdc-40c5-b710-fd2661dbc82c)
+
+![image](https://github.com/user-attachments/assets/0dfa64d2-e49c-410f-b262-450874834119)
+![image](https://github.com/user-attachments/assets/c772e954-c225-4c0f-a598-b20951df0f63)
+
+![image](https://github.com/user-attachments/assets/f4fe162f-ee8f-4ffd-82d9-f69b0e4a84b4)
+
+![image](https://github.com/user-attachments/assets/e26b77fb-fe72-407c-8647-822a3da42c03)
+
+# AWS Cost Analysis (Module 2)
+![image](https://github.com/user-attachments/assets/7087b100-5dd6-46de-9b58-58c39b01fdb9)
+- Data Storage
+![image](https://github.com/user-attachments/assets/28e5f324-ab21-48e3-aa38-2c5ec1768bdb)
+- Data Profiling and Cleaning
+![image](https://github.com/user-attachments/assets/1d335c88-ddba-46c9-afce-8c5602975f28)
+- Data Analysis
+![image](https://github.com/user-attachments/assets/066d78d9-24b2-4827-9eaa-dc5d4b645f9c)
+![image](https://github.com/user-attachments/assets/38bcfe66-13be-4d50-9d4f-b0963491d8c7)
+![image](https://github.com/user-attachments/assets/3ab4919f-caec-4fc5-96dd-bda0b3c3902c)
+
+# AWS Global Infrastructure (Module 3)
+![image](https://github.com/user-attachments/assets/42ca5e69-9fc2-491f-91bd-db72e467e78f)
+![image](https://github.com/user-attachments/assets/5456e1fe-5d63-4343-b3d7-04f9e54782c3)
+![image](https://github.com/user-attachments/assets/22964bb5-4d0c-4623-a866-dca833624bc2)
+
+# AWS IAM (Module 4)
+
+![image](https://github.com/user-attachments/assets/a8a4ae89-1954-4a2a-b886-28f3512abe0d)
+
+![image](https://github.com/user-attachments/assets/8a3d474b-11ac-4fb8-be3e-e1c9edab190e)
+![image](https://github.com/user-attachments/assets/70d417e6-63e6-42d5-8336-596469912406)
+
+# AWS VPC (Module 5)
+![image](https://github.com/user-attachments/assets/be1b2b0f-e319-435c-8e78-6a8ef9d3ebb1)
+![image](https://github.com/user-attachments/assets/516cc8d7-363d-4b16-b8c0-d0ac741378bb)
+
+# AWS Lambda (Module 6)
+
+![image](https://github.com/user-attachments/assets/d4af70f7-a2ed-4f2e-bf5b-f00afcf99a77)
+![image](https://github.com/user-attachments/assets/6adc8168-6096-4d0a-b217-1f32a1f3b20a)
+
+# AWS EBS (Module 7)
+![image](https://github.com/user-attachments/assets/0d6a61f4-b695-4bd7-ac0f-273d33c6b969)
+![image](https://github.com/user-attachments/assets/375bd46c-ac7b-4b78-8698-79ff12b8303a)
+
+
+
