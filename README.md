@@ -12,3 +12,4 @@ Overview of AWS Data Analysis Project
   This pipeline utilizes Athena to query the cleaned data in S3. A query returns the count of each tree species per neighbourhood, answering the business question about the most common trees across Vancouver.
 - AWS Pricing Estimate
   A minimal AWS cost estimate was also prepared to ensure a cost-efficient setup across all tools (S3, Glue, Athena).
+![image](https://github.com/user-attachments/assets/94c3194d-307b-4d7c-8e4b-6fb1c6080376)
